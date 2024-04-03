@@ -9,10 +9,10 @@ int main()
   for(i=0; a[i]!='\0';i++){
     
   }
-  k=i;
+  k=i;                          
     for (j = 0;j < k; j++)
     {
-        b[j]=a[--i];
+      b[j]=a[--i];
     }
     b[j]='\0';
 

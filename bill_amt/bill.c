@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main() {
-int prono[5], pri[5], qty[5], rate[5], dis[5], ratead[5], gst[5], billamt[5],
-      total = 0;
+int prono[5], pri[5], qty[5], rate[5], dis[5], ratead[5], gst[5], billamt[5],total = 0;
   int i, a = 0, b = 0, c = 0;
   for (i = 0; i < 5; i++) {
     printf("prono %d:", i + 1);
@@ -57,10 +56,12 @@ int prono[5], pri[5], qty[5], rate[5], dis[5], ratead[5], gst[5], billamt[5],
       a = a + dis[i];
   }
   printf("\t \t \t\t %d", a);
+
   for (i = 0; i < 5; i++){
     b = b + gst[i];
   }
   printf("\t\t %d", b);
+  
   for (i = 0; i < 5; i++){
     c = c + billamt[i];
   }

@@ -25,13 +25,12 @@ int main()
         }
 
      }
-     
-      if(b>c)
+      if(b>a)
      {
         printf("largest no is b %d",b);
      }
      else{
-        printf("largest no is c %d",c);
+        printf("largest no is c %d",a);
      }
       
 }      

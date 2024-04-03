@@ -17,11 +17,11 @@ int main()
     printf("  A");
     printf("\t  B");
     for(i=0;i<5;i++)
-    {
+    
         printf("\n %d",a[i]);
         printf("\t %d",b[i]);
     }
-}
+
 /* output :-
 ----array is-----
   A       B

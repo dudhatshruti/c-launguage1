@@ -12,7 +12,6 @@ int main()
 
     area=0.5*base*height;
     printf("area of triangle:%f",area);
-
 }
 
 /*output :-
