@@ -9,5 +9,5 @@ int main()
 
     // printf("your string is:%s",str);
     puts(str);
-    
+ 
 }

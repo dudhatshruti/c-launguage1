@@ -10,7 +10,6 @@ int main()
 
     for(i=0; a[i] !='\0'; i++);
         
-    
     length = i-1;
     
     for(j=0; j<i/2; j++)

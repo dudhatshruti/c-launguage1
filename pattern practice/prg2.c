@@ -15,3 +15,11 @@ int main()
         printf("\n");
     }
 }
+
+/*
+ A
+ b c
+ D E F
+ g h i j
+ K L M N O
+*/

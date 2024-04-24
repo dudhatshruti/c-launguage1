@@ -18,8 +18,8 @@ int main()
     else{
         printf("\n b is smallest:%d",b);
     }
-
 }
+
 
 /*  output :-
 

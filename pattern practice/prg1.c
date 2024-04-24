@@ -19,7 +19,15 @@ int main()
             printf("%c",n-1+j);
         }
         printf("\n");
-    }
-    
-    
+    }  
 }
+
+/*
+A
+BA 
+CBA
+DCBA
+CBA
+BA
+A
+*/

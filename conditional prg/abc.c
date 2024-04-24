@@ -14,8 +14,8 @@ int main()
      scanf("%d",&c);
 
      
-     if(a>b)
-     {
+      if(a>b)
+      {
         if(a<c)
         {
             printf("largest value a %d",a);
@@ -23,15 +23,14 @@ int main()
         else{
             printf("largest no is c %d",c);
         }
-
-     }
+      }
       if(b>a)
-     {
+      {
         printf("largest no is b %d",b);
-     }
-     else{
+      }
+      else{
         printf("largest no is c %d",a);
-     }
+      }
       
 }      
     

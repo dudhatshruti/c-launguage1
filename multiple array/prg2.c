@@ -9,7 +9,6 @@ int main()
         printf("\n enter a[ %d ][ %d ]:",i,j);
         scanf("%d",&a[i][j]);
         }
-        
     }
       for (i=0; i<3; i++)
     {
@@ -18,7 +17,6 @@ int main()
         printf("\n enter b[ %d ][ %d ]:",i,j);
         scanf("%d",&b[i][j]);
         }
-        
     }
 
     printf("\n\t--a--\n\n");
@@ -54,16 +52,12 @@ int main()
         for (j=0; j<3; j++)
         {
             printf("\t %d",b[i][j]);
-
         }
           printf("\t\t");
         for (j=0; j<3; j++)
         {
             printf("\t %d",a[i][j] + b[i][j]);
-
         }
         printf("\n");
     }
-        
-       
 }

@@ -13,5 +13,4 @@ int main()
         printf("%d\t %u \n",*(p+i),(p+i));
 
     }
-    
 }

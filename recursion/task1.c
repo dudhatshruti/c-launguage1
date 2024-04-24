@@ -9,7 +9,7 @@ int new( int n)
         return new(n-1)+new(n-2);
     }        
 }
-int main()
+int main()  
 {
     int i;
     for (i=1; i<=10; i++)

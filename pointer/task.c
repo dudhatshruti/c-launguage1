@@ -14,8 +14,8 @@ int main()
     q = &b;
 
     c=*p;
-    // *p=*q;
-    // *q=c;
+    *p=*q;
+    *q=c;
     
     printf("\n a=%d b=%d\n",a,b);
 }

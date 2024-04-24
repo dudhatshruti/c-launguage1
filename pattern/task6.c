@@ -13,8 +13,11 @@ int main()
         }
         printf("\n");
    }
-   
-   
-
 }
+/*
+    A
+   BB
+  CCC
+ DDDD
+*/
 

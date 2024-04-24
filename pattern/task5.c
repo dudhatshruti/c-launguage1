@@ -6,15 +6,15 @@ int main()
     {
         for (j=4; j>=i; j--)
         {
-            printf("%d ",j);
+            printf("\t %d",j);
         }
         printf("\n");  
     }
     for (i=1;i<=4; i++)
     {
-        for (j=4; j>i; j--)
+        for (j=4; j>=i; j--)
         {
-            printf("%d ",j);
+            printf("\t %d ",j);
         }
         printf("\n");    
     }

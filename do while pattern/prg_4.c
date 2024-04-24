@@ -1,20 +1,37 @@
+// #include<stdio.h>
+// int main()
+// {
+//     int i='A',j;
+//     do{
+//         j='A';
+//         do
+//         {
+//             printf("\t %c",i);
+//             j++;
+//         }
+//         while (j<='E');
+//         printf("\n");
+//         i++; 
+//     }
+//     while (i<='E');
+//     return 0;  
+// }
+
 #include<stdio.h>
-int main()
-{
-    int i='A',j;
-    do{
+int main(){
+    int i= 'A',j;
+    do
+    {
         j='A';
         do
         {
-            printf("\t %c",i);
-            j++;
-        }
+           printf("\t %c",i);
+           j++;
+        } 
         while (j<='E');
-        printf("\n");
-        i++; 
+        printf("\n",i++);
     }
-    while (i<='E');
-    return 0;  
+     while (i<='E');
 }
 /* output :-
          A       A       A       A       A

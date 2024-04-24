@@ -18,3 +18,8 @@ int main()
 
     printf("%s",b);
 }
+
+// reverse string
+
+// output:-
+// lliks
